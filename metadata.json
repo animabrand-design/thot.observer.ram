@@ -1,0 +1,25 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "zayronxio (original thot RAM design), layout fix by Hermes"
+            }
+        ],
+        "Name": "thot RAM",
+        "Id": "thot.observer.ram",
+        "Description": "thot-style circular widget showing current RAM memory usage. Modified derivative of zayronxio's thot: fixes a Qt Quick anchors-in-layout conflict that triggered a per-second re-layout and warning spam.",
+        "Category": "Utilities",
+        "Icon": "org.kde.ksysguard",
+        "EnabledByDefault": true,
+        "License": "GPL-3.0+",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "0.5.2",
+        "Website": "https://github.com/animabrand-design/thot.observer.ram",
+        "BugWebsite": "https://github.com/animabrand-design/thot.observer.ram/issues",
+        "SourceCode": "https://github.com/animabrand-design/thot.observer.ram"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
